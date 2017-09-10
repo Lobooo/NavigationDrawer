@@ -11,7 +11,7 @@ Copy HamburgerButton.swift／NavigationDrawer.swift／NavigationDraerOptions.swi
 see sample Xcode project in /ViewController
 
 # Demo gif
-![image](https://github.com/Lobooo/NavigationDrawer/blob/master/Navigation%20Drawer.gif)
+![image](https://github.com/Lobooo/NavigationDrawer/blob/master/NavigationDrawer.gif)
 
 # License
 
