@@ -21,7 +21,7 @@
 
 /* Begin PBXFileReference section */
 		5F5033951C82FFE300D75AD3 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
-		5FB6C5E51C7EBB7F00F4684E /* NavigationDrawer-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NavigationDrawer-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FB6C5E51C7EBB7F00F4684E /* NavigationDrawer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationDrawer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FB6C5E81C7EBB7F00F4684E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FB6C5EA1C7EBB7F00F4684E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5FB6C5ED1C7EBB7F00F4684E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		5FB6C5DC1C7EBB7E00F4684E = {
 			isa = PBXGroup;
 			children = (
-				5FB6C5E71C7EBB7F00F4684E /* NavigationDrawer-Swift */,
+				5FB6C5E71C7EBB7F00F4684E /* NavigationDrawer */,
 				5FB6C5E61C7EBB7F00F4684E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,12 +56,12 @@
 		5FB6C5E61C7EBB7F00F4684E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5FB6C5E51C7EBB7F00F4684E /* NavigationDrawer-Swift.app */,
+				5FB6C5E51C7EBB7F00F4684E /* NavigationDrawer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5FB6C5E71C7EBB7F00F4684E /* NavigationDrawer-Swift */ = {
+		5FB6C5E71C7EBB7F00F4684E /* NavigationDrawer */ = {
 			isa = PBXGroup;
 			children = (
 				5FB6C5E81C7EBB7F00F4684E /* AppDelegate.swift */,
@@ -76,15 +76,16 @@
 				5F5033951C82FFE300D75AD3 /* TestViewController.swift */,
 				C989A94B1F642BE4003F1946 /* HamburgerButton.swift */,
 			);
+			name = NavigationDrawer;
 			path = "NavigationDrawer-Swift";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5FB6C5E41C7EBB7E00F4684E /* NavigationDrawer-Swift */ = {
+		5FB6C5E41C7EBB7E00F4684E /* NavigationDrawer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5FB6C5F71C7EBB7F00F4684E /* Build configuration list for PBXNativeTarget "NavigationDrawer-Swift" */;
+			buildConfigurationList = 5FB6C5F71C7EBB7F00F4684E /* Build configuration list for PBXNativeTarget "NavigationDrawer" */;
 			buildPhases = (
 				5FB6C5E11C7EBB7E00F4684E /* Sources */,
 				5FB6C5E21C7EBB7E00F4684E /* Frameworks */,
@@ -94,9 +95,9 @@
 			);
 			dependencies = (
 			);
-			name = "NavigationDrawer-Swift";
+			name = NavigationDrawer;
 			productName = "NavigationDrawer-Swift";
-			productReference = 5FB6C5E51C7EBB7F00F4684E /* NavigationDrawer-Swift.app */;
+			productReference = 5FB6C5E51C7EBB7F00F4684E /* NavigationDrawer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -116,7 +117,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5FB6C5E01C7EBB7E00F4684E /* Build configuration list for PBXProject "NavigationDrawer-Swift" */;
+			buildConfigurationList = 5FB6C5E01C7EBB7E00F4684E /* Build configuration list for PBXProject "NavigationDrawer" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -129,7 +130,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5FB6C5E41C7EBB7E00F4684E /* NavigationDrawer-Swift */,
+				5FB6C5E41C7EBB7E00F4684E /* NavigationDrawer */,
 			);
 		};
 /* End PBXProject section */
@@ -220,7 +221,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -259,7 +260,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,7 +301,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5FB6C5E01C7EBB7E00F4684E /* Build configuration list for PBXProject "NavigationDrawer-Swift" */ = {
+		5FB6C5E01C7EBB7E00F4684E /* Build configuration list for PBXProject "NavigationDrawer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5FB6C5F51C7EBB7F00F4684E /* Debug */,
@@ -309,7 +310,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5FB6C5F71C7EBB7F00F4684E /* Build configuration list for PBXNativeTarget "NavigationDrawer-Swift" */ = {
+		5FB6C5F71C7EBB7F00F4684E /* Build configuration list for PBXNativeTarget "NavigationDrawer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5FB6C5F81C7EBB7F00F4684E /* Debug */,
